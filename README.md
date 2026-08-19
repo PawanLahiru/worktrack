@@ -1,14 +1,14 @@
-WorkTrack
+### WorkTrack
 
 A personal work-hour, salary, expense, and weekly compliance tracking web application built with React, Vite, and Firebase.
 
 WorkTrack was developed to help track daily working hours, monitor weekly work limits, estimate salary, record expenses, and provide a clear overview of personal work and financial activity.
 
-Live Demo
+### Live Demo
 
 View Live Application
 
-Overview
+### Overview
 
 WorkTrack is a responsive web application designed for personal work-hour management.
 
@@ -16,7 +16,7 @@ The application provides tools for recording work shifts, calculating working ti
 
 The project was built as a practical solution for managing part-time working hours while keeping weekly work limits easy to understand.
 
-Main Features
+### Main Features
 
 * Clock-in and clock-out tracking
 * Manual work-entry creation
@@ -40,42 +40,42 @@ Main Features
 * Mobile-friendly interface
 * Installable web application
 
-Technologies Used
+### Technologies Used
 
-Frontend
+## Frontend
 
 * React
 * JavaScript
 * Vite
 * CSS
 
-Backend and Cloud Services
+### Backend and Cloud Services
 
 * Firebase Authentication
 * Cloud Firestore
 * Firebase Hosting
 
-PWA
+### PWA
 
 * Vite PWA
 * Service Worker
 * Web App Manifest
 * Mobile installation support
 
-Development Tools
+### Development Tools
 
 * Git
 * GitHub
 * npm
 * Visual Studio Code
 
-Main Application Areas
+### Main Application Areas
 
-Work Tracking
+### Work Tracking
 
 The Work section allows users to manage daily work records.
 
-Main functionality includes:
+### Main functionality includes:
 
 * Clock-in time
 * Clock-out time
@@ -87,7 +87,7 @@ Main functionality includes:
 * Work notes
 * Daily work summaries
 
-Weekly Work-Limit Monitoring
+### Weekly Work-Limit Monitoring
 
 One of the key features of WorkTrack is weekly work-hour monitoring.
 
@@ -108,7 +108,7 @@ The application can calculate:
 
 This makes it easier to understand how much additional work time is available.
 
-Salary Tracking
+### Salary Tracking
 
 The salary section estimates earnings based on recorded work shifts.
 
@@ -121,7 +121,7 @@ The calculation can include:
 * Estimated monthly salary
 * Per-shift estimated salary
 
-Expense Tracking
+### Expense Tracking
 
 Users can record personal expenses and compare them with estimated income.
 
@@ -143,7 +143,7 @@ Example categories include:
 
 The application can also summarize expenses by category.
 
-Financial Overview
+### Financial Overview
 
 The application combines estimated salary and recorded expenses to provide a simple monthly financial overview.
 
@@ -155,19 +155,19 @@ This includes:
 * Recent expenses
 * Expense category totals
 
-Authentication
+### Authentication
 
 Firebase Authentication is used to manage access to the application.
 
 User-specific information can be stored using Firebase services.
 
-Database
+### Database
 
 Cloud Firestore is used for persistent application data.
 
 This allows work records and related information to remain available across sessions and devices.
 
-Progressive Web App
+### Progressive Web App
 
 WorkTrack supports Progressive Web App functionality.
 
@@ -181,7 +181,7 @@ PWA features include:
 * Installable interface
 * Mobile-friendly layout
 
-Responsive Design
+### Responsive Design
 
 WorkTrack is designed to work across:
 
@@ -192,7 +192,7 @@ WorkTrack is designed to work across:
 
 The interface adapts to different screen sizes while keeping important work-hour information easy to access.
 
-Project Structure
+### Project Structure
 ```
 src/
 ├── assets/
@@ -211,7 +211,7 @@ src/
 ```
 The application separates major functionality into individual pages while keeping reusable interface elements inside the components directory.
 
-Installation
+### Installation
 
 Clone the repository:
 ```
@@ -230,7 +230,7 @@ Start the development server:
 ```
 npm run dev
 ```
-Production Build
+### Production Build
 
 Create a production build:
 ```
@@ -240,7 +240,7 @@ The generated production files are placed in:
 ```
 dist/
 ```
-Firebase Deployment
+### Firebase Deployment
 
 The application is deployed using Firebase Hosting.
 
@@ -248,7 +248,7 @@ Live application:
 ```
 https://worktrack-pavan.web.app
 ```
-Purpose of the Project
+### Purpose of the Project
 
 WorkTrack demonstrates practical web-development skills including:
 
@@ -265,7 +265,7 @@ WorkTrack demonstrates practical web-development skills including:
 * Git and GitHub version control
 * Production deployment
 
-Future Improvements
+### Future Improvements
 
 Possible future improvements include:
 
@@ -282,17 +282,16 @@ Possible future improvements include:
 * Offline synchronization
 * Additional financial analytics
 
-Author
+## Author
 
-Pawan Lahiru
+**Lahiru Pawan**
 
 Software / Web Developer based in Kyoto, Japan.
 
-Portfolio
-```
-https://pawanlahiru.github.io/Portfolio/
-```
-GitHub
-```
-https://github.com/PawanLahiru
-```
+### Portfolio
+
+[View Portfolio](https://pawanlahiru.github.io/Portfolio/)
+
+### GitHub
+
+[GitHub Profile](https://github.com/PawanLahiru)
